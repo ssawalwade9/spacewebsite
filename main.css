@@ -6,3 +6,12 @@ body {
     background-color: black;
     color: antiquewhite;
 }
+a {
+    color:aliceblue;
+}
+a:visited{
+    color:aquamarine;
+}
+a:hover,a:active{
+    color:bisque;
+}
