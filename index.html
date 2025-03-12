@@ -19,6 +19,9 @@
             <li>
                 <a href="#vacation">planning a vaction </a>
             </li>
+            <li>
+                <a href="#contact">Contact me </a>
+            </li>
             </ul>
         </nav>
        </header>
@@ -65,7 +68,7 @@
                 <th>
                   &nbsp;
                 </th>
-                <th id=time scope="col">
+                <th scope="col">
                   time 
                 </th>
                 <th scope="col">
@@ -75,10 +78,10 @@
             </thead>
             <tbody>
               <tr>
-                <th id=morning scope="row">
+                <th scope="row">
                   1.
                 </th>
-                <td headers="time morning">
+                <td>
                   <time datetime="08:00">8 am</time>-<time datetime="11:00">11 am</time>
                 </td>
                 <td>
@@ -168,6 +171,130 @@
             <dd>these is cold too.</dd>
          </dl>
       </section>
+    </article>
+    <hr>
+    <article id="contact">
+      <h2>Contact me</h2>
+      <p> i would really like to hear from you</p>
+      <form action="https://httpbin.org/get" method="get">
+        <fieldset>
+          <legend>personal information</legend>
+        <p><label for="firstname">
+         first Name:
+        </label>
+        <input type="text" name="firstname" id="firstname" placeholder="shruti" autocomplete="on" required autofocus>
+        </p>
+        <p>
+        <label for="lastname">
+         Last Name:
+        </label>
+        <input type="text" name="lastname" id="lastname" placeholder="sawalwade" autocomplete="on" required >
+        </p>
+        <p>
+          <label for="password">
+            Security pin:
+           </label>
+           <input type="password" name="password" id="password" placeholder="your password" required >
+
+        </p>
+        <p>
+          <label for="phone">
+            Phone Number:
+           </label>
+           <input type="tel" name="phone" id="phone" placeholder="5555555555"
+           pattern="[0-9]{10}" required >
+        </p>
+        <p>
+          <label for="decade">
+            Your Favourite Decade:
+           </label>
+           <input type="number" name="decade" id="decade" min="1950" max="2020" step="10" value="1980" >
+        </p>
+        <p>
+          <label for="coffee">Favourite coffee:</label>
+          <select name="coffee" id="coffee" multiple size="4">
+            <optgroup label="group1">
+             <option value="regularcoffee">Regular coffee</option>
+             <option value="icedcoffee">Iced Coffee</option>
+            </optgroup>
+             <optgroup label="group2">
+             <option value="lattee">Lattee</option>
+             <option value="cappecino">cappecino</option>
+             <option value="coldcoffee" selected>Cold Coffee</option>
+            </optgroup>
+             <option value="others">Others</option>
+          
+          </select>
+        </p>
+       <!--  <p>
+          <label for="coffee">Favorite Coffee:</label>
+                    <input type="text" name="coffee" id="coffee" list="coffee-list">
+                    <datalist id="coffee-list">
+                        <option value="coffee">
+                        <option value="latte">
+                        <option value="espresso">
+                        <option value="cortado">
+                        <option value="americano">
+                        <option value="other">
+                    </datalist>
+        </p> -->
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Favorite food</legend>
+        <p>
+          <input type="radio" name="food" id="tacos" value="tacos">
+          <label for="tacos">Tacos</label>
+        </p>
+        <p>
+          <input type="radio" name="food" id="maggiee" value="maggiee">
+          <label for="maggiee">Maggiee</label>
+        </p>
+        <p>
+          <input type="radio" name="food" id="nachos" value="nachos">
+          <label for="nachos">Nachos</label>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>do you have pets?</legend>
+        <p>
+          <input type="checkbox" name="pets" id="dogs" value="dogs">
+          <label for="dogs">Dogs</label>
+        </p>
+        <p>
+          <input type="checkbox" name="pets" id="cats" value="cats">
+          <label for="cats">Cats</label>
+        </p>
+        <p>
+          <input type="checkbox" name="pets" id="fish" value="fish">
+          <label for="fish">Fish</label>
+        </p>
+        <p>
+          <input type="checkbox" name="pets" id="birds" value="birds">
+          <label for="birds">Birds</label>
+        </p>
+        <p>
+          <input type="checkbox" name="pets" id="otherpets" value="otherpets">
+          <label for="otherpets">Other Pets</label>
+        </p>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>send me a note</legend>
+        <label for="message">your feedback</label>
+        <br>
+        <textarea name="message" id="message" placeholder="type your message"></textarea>
+      </fieldset>
+      <fieldset>
+        <legend>your mail</legend>
+        <label for="email">email</label>
+        <input type="email" required>
+      </fieldset>
+      <br>
+      <button type="submit">submit</button>
+      <button type="reset">Reset</button>
+      <button type="submit" formaction="https://httpbin.org/post" formmethod="post"></button>
+      </form>
     </article>
         </main>
          <hr>
