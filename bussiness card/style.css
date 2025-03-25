@@ -1,0 +1,17 @@
+body{
+    margin: 20px;
+}
+.imgg{
+    width: 150px;
+    border: solid black;
+}
+.container{
+    background-color: aquamarine;
+    border: double black;
+    padding: 20px ;
+    display: flex;
+    justify-content:baseline;
+}
+.italic{
+    font-style: italic;
+}
