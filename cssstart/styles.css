@@ -36,6 +36,7 @@ input{
     padding-left: 16px;
     font-size: 14px;
     /*border:none also can be done*/
+    margin-right: 10px;
 }
 .btn2{
     margin-top: 10px;
@@ -48,6 +49,7 @@ input{
     padding-left: 16px;
     font-size: 14px;
     /*border:none also can be done*/
+    margin-left: 15px;
 }
 .buttonstwo{
     display: flex;
