@@ -12,6 +12,6 @@ body{
     display: flex;
     justify-content:baseline;
 }
-.italic{
-    font-style: italic;
+.borderr{
+    border: dotted blue 4px;
 }
