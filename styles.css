@@ -11,6 +11,7 @@ body{
   }
 
 .btn{
+
     padding: 6px 12px;
     border-radius: 0%;
     font-weight: bold;
@@ -21,4 +22,8 @@ body{
 .cta{
     border-bottom: 4px solid white;
 
+}
+#logo{
+    width: 20%;
+    height: 10%;
 }
