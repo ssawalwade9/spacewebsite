@@ -8,13 +8,35 @@
     margin-left: auto;
     margin-right:auto;
  }
-.text{
+input{
+    line-height: 24px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    display: block;
+    text-align: inherit;
     width: 400px;
-    text-align: right;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
     
+}
+.btn1{
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color:black;
+    border-color: #dfe1e5;
+    border-radius: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    padding-left: 16px;
+    font-size: 14px;
+    /*border:none also can be done*/
 }
 .buttonstwo{
     margin-left: auto;
