@@ -1,5 +1,6 @@
 .main{   
      margin-top: 50px;
+     text-align: center;
 }
 .googleimg{
     width: 300px;
@@ -25,9 +26,18 @@ input{
 }
 .btn1{
     margin-top: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    color:black;
+    border-color: #dfe1e5;
+    border-radius: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    padding-left: 16px;
+    font-size: 14px;
+    /*border:none also can be done*/
+}
+.btn2{
+    margin-top: 10px;
     color:black;
     border-color: #dfe1e5;
     border-radius: 4px;
