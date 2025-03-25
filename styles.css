@@ -1,0 +1,21 @@
+body{
+    display: block;
+    color: azure;
+    text-align: center;
+    background-image: url("images/img1.jpg");
+    background-size: cover;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+    
+
+.btn{
+    padding: 6px 12px;
+    border-radius: 0%;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    font-family: inherit;
+}
