@@ -2,7 +2,7 @@ body{
     display: block;
     color: azure;
     text-align: center;
-    background-image: url("images/img1.jpg");
+    background-image: url("images/galaxy.webp");
     background-size: cover;
     font-family: "Orbitron", sans-serif;
     font-optical-sizing: auto;
@@ -27,4 +27,3 @@ body{
     width: 20%;
     height: 10%;
 }
-/*fdd*?
