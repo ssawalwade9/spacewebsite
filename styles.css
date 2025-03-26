@@ -1,13 +1,12 @@
 body{
     display: block;
-    color: azure;
     text-align: center;
-    background-image: url("images/galaxy.webp");
-    background-size: cover;
     font-family: "Orbitron", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    color: #82a5ca;
+    margin: 0;
   }
 
 .btn{
@@ -16,6 +15,7 @@ body{
     border-radius: 0%;
     font-weight: bold;
     background-color: white;
+    color:#82a5ca;
     border: none;
     font-family: inherit;
 }
@@ -24,6 +24,14 @@ body{
 
 }
 #logo{
-    width: 20%;
-    height: 10%;
+    width: 15%;
+    height: 7%;
+}
+#content{
+    background-image: url("images/galaxy.webp");
+    background-size: cover;
+    padding: 10px 0px 40px 0px;
+}
+#title{
+    text-shadow: 1px -1px  12px black;
 }
